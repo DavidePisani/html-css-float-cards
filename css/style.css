@@ -1,9 +1,10 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* FONT SCRITTE */
 body{
     font-family: 'Fredoka', sans-serif;
 }
@@ -32,18 +33,18 @@ section {
     margin: auto;
     
 }
-
+/* CLEARFIX */
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
-
+/* IMMAGINE */
 img{
     width: 100px;
     float: left;
 }
-
+/* DESCRIZIONE */
 .col{
     float: left;
     padding: 30px;
@@ -56,15 +57,17 @@ img{
     color: white;
     width: 300px ;
     line-height: 33px;
-    box-shadow: gray;
+    box-shadow: 1px 1px 5px black;
     }
+
+ a{
+     text-decoration: none;
+    color: #00aef4;
+}   
 
 .cont{
     line-height: 33px;
     float: left;
     padding-left: 10px;
 }    
-a{
-    text-decoration: none;
-    color: #00aef4;
-}
+
