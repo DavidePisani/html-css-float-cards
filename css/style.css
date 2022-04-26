@@ -8,8 +8,11 @@ body{
     font-family: 'Fredoka', sans-serif;
 }
 
+/* HEADER */
+
 header{
     text-align: center;
+    margin-bottom: 20px;
     
 }
 
@@ -20,4 +23,48 @@ h1{
 
 h1 + p {
     padding: 0 40px;
+}
+
+/* MAIN */
+
+section {
+    width: 50%;
+    margin: auto;
+    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img{
+    width: 100px;
+    float: left;
+}
+
+.col{
+    float: left;
+    padding: 30px;
+    width: calc( 100% / 3 );
+}
+
+.card{
+    float: left;
+    background-color: black;
+    color: white;
+    width: 300px ;
+    line-height: 33px;
+    box-shadow: gray;
+    }
+
+.cont{
+    line-height: 33px;
+    float: left;
+    padding-left: 10px;
+}    
+a{
+    text-decoration: none;
+    color: #00aef4;
 }
